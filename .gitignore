@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# Duplicate/scaffold folders
+gravitytools/
+zosto-mobile/
+
+# Native & keys
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro & Logs
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# OS & Env
+.DS_Store
+Thumbs.db
+*.pem
+.env*.local
